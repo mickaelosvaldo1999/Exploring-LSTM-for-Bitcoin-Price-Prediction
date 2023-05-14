@@ -1,0 +1,8 @@
+[
+    {
+        "name": "BTools Configuration file by: Mickael de Oliveira"
+    },
+    {
+        "base": "https://api.binance.com/api/v3/"
+    }
+]
