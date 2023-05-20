@@ -3,6 +3,7 @@
     type:
         safe: BTC/stablecoin or fiat currency pair
         risky: BTC/Altcoin pair
+    
 """
 import json
 import pair
@@ -18,14 +19,14 @@ req = BTools.getExchangeInfo()
 for i in req["symbols"]:
     if i["baseAsset"] == "BTC":
         if i["quoteAsset"] in BTools.stable:
-            pairList.append(pair.pair(i["symbol"],"safe",i["quoteAsset"]))
+            pairList.append(pair.pair(i["symbol"],"safe",0,i["quoteAsset"]))
         else:
-            pairList.append(pair.pair(i["symbol"],"risky",i["quoteAsset"]))
+            pairList.append(pair.pair(i["symbol"],"risky",0,i["quoteAsset"]))
     elif i["quoteAsset"] == "BTC":
         if i["baseAsset"] in BTools.stable:
-            pairList.append(pair.pair(i["symbol"],"safe",i["baseAsset"]))
+            pairList.append(pair.pair(i["symbol"],"safe",1,i["baseAsset"]))
         else:
-            pairList.append(pair.pair(i["symbol"],"risky",i["baseAsset"]))
+            pairList.append(pair.pair(i["symbol"],"risky",1,i["baseAsset"]))
 
 # output 
 with open("src/pairs.json", 'w') as f:

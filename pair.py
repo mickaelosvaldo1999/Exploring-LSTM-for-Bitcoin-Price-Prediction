@@ -3,10 +3,11 @@ from json import JSONEncoder
 
 class pair:
     #Constructor:
-    def __init__(self,symbol,type,target):
+    def __init__(self,symbol,type,operation,target):
         #Declaring variables
         self.synbol = symbol
         self.type = type
+        self.operation = operation                                             
         self.target = target
         
     #Getters
@@ -14,6 +15,8 @@ class pair:
         return self.synbol
     def getType(self):
         return self.type
+    def getOperation(self):
+        return self.operation
     def getTarget(self):
         return self.target
 
