@@ -7,7 +7,6 @@
 """
 import json
 import pair
-import time
 import BTools
 
 #List of objects
@@ -36,7 +35,7 @@ with open("src/pairs.json", 'w') as f:
     #including header
     file = [
         {"version": "1.0"},
-        {"timestamp": (time.time_ns() + 500000) // 1000000},
+        {"timestamp": BTools.now()},
         {"description": "This file contains a list of all the pairs listed on Binance, with their type (safe or risky) and their target (the stablecoin or fiat currency they are paired with)."},
         {"data": json.loads(jsonized)}
         ]

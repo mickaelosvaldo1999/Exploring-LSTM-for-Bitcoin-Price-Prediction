@@ -3,7 +3,7 @@
         "version": "1.0"
     },
     {
-        "timestamp": 1684602405757
+        "timestamp": 1684602785574
     },
     {
         "description": "This file contains a list of all the pairs listed on Binance, with their type (safe or risky) and their target (the stablecoin or fiat currency they are paired with)."
