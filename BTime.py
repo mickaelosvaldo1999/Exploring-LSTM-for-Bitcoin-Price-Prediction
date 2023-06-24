@@ -19,7 +19,8 @@ def getTime(enum):
 
 def now():
     """Return current timestamp in milliseconds"""
-    return time.time_ns()//1000000
+    
+    return round(time.time()*1000)
 
 def pause():
     """Pause the program for x seconds"""
