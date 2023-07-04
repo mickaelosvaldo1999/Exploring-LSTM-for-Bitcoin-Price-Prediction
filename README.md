@@ -1,4 +1,4 @@
-# Bitcoin-analysis-with-LSTM
+# Exploring LSTM for Bitcoin Price Prediction
 This research focuses on analyzing the relationship
 between Bitcoin price, trading rates, and volume to predict
 prices in 15-minute candle intervals. The study proposes the
