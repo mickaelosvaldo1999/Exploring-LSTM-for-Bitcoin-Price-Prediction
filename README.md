@@ -19,7 +19,7 @@ An implementation of a LSTM on bitcoin graph.
 * Integrated binance API module
 * Native Threads support on request
 * Easy to use and large documentation
-* Http remaker (personized HTTP response)
+* Http remaker (personalized HTTP response)
 
 ## License
 This code is distributed under the GPL-3.0 license. See the LICENSE file for more information.
