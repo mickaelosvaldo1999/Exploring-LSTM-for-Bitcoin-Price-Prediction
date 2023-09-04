@@ -8,7 +8,7 @@ was obtained from the Binance API and underwent collection
 and preprocessing. The performance of the prediction model is
 evaluated against the real one. The findings contribute to the
 analysis of cryptocurrency markets, enabling investors to make
-informed real-time decisions and facilitating the development of
+informed real-time decisions, facilitating the development of
 advanced trading algorithms and risk management strategies in
 the cryptocurrency space.
 
@@ -18,7 +18,7 @@ An implementation of a LSTM on bitcoin graph.
 ## Features
 * Integrated binance API module
 * Native Threads support on request
-* Easy to usa and large documentation
+* Easy to use and large documentation
 * Http remaker (personized HTTP response)
 
 ## License
