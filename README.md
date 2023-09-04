@@ -1,8 +1,8 @@
 # Exploring LSTM for Bitcoin Price Prediction
 This research focuses on analyzing the relationship
-between Bitcoin price, trading rates, and volume to predict
+between Bitcoin prices, trading rates and volume to predict
 prices in 15-minute candle intervals. The study proposes the
-use of Long Short-Term Memory (LSTM) neural networks for
+use of Long Short-Term Memory (LSTM) neural network for
 developing a reliable prediction model. Historical Bitcoin data
 was obtained from the Binance API and underwent collection
 and preprocessing. The performance of the prediction model is
