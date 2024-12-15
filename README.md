@@ -21,7 +21,7 @@ Price, trading rates, and volume of Binance transactions for Bitcoin pairs in 20
 ### Dataset features list
 
 #### Timestamp: (GMT -3):
-Miliseconds time from 2020-01-01 to 2020-12-31 with 15 minutos interval.
+Miliseconds time from 2017-31-12 to 2023-01-06 with 15 minutos interval.
 
 #### volumeRisky:
 Volume from Bitcoin to altcoins, memecoins or NFTs.
