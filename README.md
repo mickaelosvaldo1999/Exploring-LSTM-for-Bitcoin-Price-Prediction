@@ -13,9 +13,35 @@ advanced trading algorithms and risk management strategies in
 the cryptocurrency space.
 
 ## Overview
-An implementation of a LSTM on bitcoin graph.
+An implementation of a LSTM on bitcoin chart.
 
-## Features
+## Dataset
+Price, trading rates, and volume of Binance transactions for Bitcoin pairs in 2020, with a 15-minute interval.
+
+### Dataset features list
+
+#### Timestamp: (GMT -3):
+Miliseconds time from 2020-01-01 to 2020-12-31 with 15 minutos interval.
+
+#### volumeRisky:
+Volume from Bitcoin to altcoins, memecoins or NFTs.
+
+#### volumeSafe
+Volume from Bitcoin to FIAT or Stable coins.
+
+#### tradesRisky
+Volume from Bitcoin to altcoins, memecoins or NFTs.
+
+#### tradesSafe
+Trades from Bitcoin to FIAT or Stable coins.
+
+#### price
+Price in USDT
+
+### Why are these features helpful?
+The crypto market operates on cycles driven by FOMO (Fear of Missing Out) and FUD (Fear, Uncertainty, and Doubt). Every four years, Bitcoin undergoes a halving, reducing the mined supply by half. This dataset focuses on the 2020 halving, providing insights into the flow of money during this period.
+
+## General features
 * Integrated binance API module
 * Native Threads support on request
 * Easy to use and large documentation
